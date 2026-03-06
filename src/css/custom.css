@@ -1,0 +1,213 @@
+/* Any CSS included here will be global. */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-font-family-base: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+  --ifm-font-size-base: 15px; 
+  --ifm-line-height-base: 1.5;
+  --ifm-color-primary: #007acc;
+  --ifm-color-primary-dark: #006bb3;
+  --ifm-color-primary-darker: #0062a6;
+  --ifm-color-primary-darkest: #004f85;
+  --ifm-color-primary-light: #1a8cff;
+  --ifm-color-primary-lighter: #3399ff;
+  --ifm-color-primary-lightest: #66b3ff;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --hero-btn-bg: #fff;
+  --hero-btn-text: #1b1b1d;
+  --hero-btn-text-hover: #007acc;
+  --alert-admonition-bg-color: #F6F8FA;
+  --summary-bg-color: #fff;
+  --summary-border-color: #DADDE1;
+  --summary-text-color: #1C1E21;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #0099ff;
+  --ifm-color-primary-dark: #0094f7;
+  --ifm-color-primary-darker: #0090f0;
+  --ifm-color-primary-darkest: #0087e0;
+  --ifm-color-primary-light: #1aa3ff;
+  --ifm-color-primary-lighter: #26a8ff;
+  --ifm-color-primary-lightest: #4db8ff;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --hero-btn-bg: #242526;
+  --hero-btn-text: #fff;
+  --hero-btn-text-hover: #0099ff;
+  --alert-admonition-bg-color: #282A36;
+  --summary-bg-color: #2B2B2D;
+  --summary-border-color: #606770;
+  --summary-text-color: #EEF9FD;
+}
+
+/* Navbar Links */
+a.navbar__item.navbar__link.header-discord-link {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+a.navbar__item.navbar__link.header-github-link {
+  padding-left: 10px;
+  padding-right: 15px;
+}
+
+.header-discord-link::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background-color: var(--ifm-navbar-link-color);
+  mask-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M13.545 2.907a13.2 13.2 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.2 12.2 0 0 0-3.658 0 8 8 0 0 0-.412-.833.05.05 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.04.04 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032q.003.022.021.037a13.3 13.3 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019q.463-.63.818-1.329a.05.05 0 0 0-.01-.059l-.018-.011a9 9 0 0 1-1.248-.595.05.05 0 0 1-.02-.066l.015-.019q.127-.095.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.05.05 0 0 1 .053.007q.121.1.248.195a.05.05 0 0 1-.004.085 8 8 0 0 1-1.249.594.05.05 0 0 0-.03.03.05.05 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.2 13.2 0 0 0 4.001-2.02.05.05 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.03.03 0 0 0-.02-.019m-8.198 7.307c-.789 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612m5.316 0c-.788 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612'/%3E%3C/svg%3E");
+  transition: background-color var(--ifm-transition-fast)
+    var(--ifm-transition-timing-default);
+}
+
+.header-discord-link:hover::before {
+  background-color: var(--ifm-navbar-link-hover-color);
+}
+
+.header-github-link::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background-color: var(--ifm-navbar-link-color);
+  mask-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8'/%3E%3C/svg%3E");
+  transition: background-color var(--ifm-transition-fast)
+    var(--ifm-transition-timing-default);
+}
+
+.header-github-link:hover::before {
+  background-color: var(--ifm-navbar-link-hover-color);
+}
+
+/* Light/Dark mode button */
+.navbar__items .clean-btn:hover {
+  background: transparent !important;
+}
+
+.navbar__items .clean-btn:hover svg {
+  color: var(--ifm-color-primary); 
+  transition: color 0.2s ease;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+}
+
+.footer__col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.footer__copyright {
+  text-align: center;
+}
+
+/* Hide the default external link icon in the footer */
+.footer__link-item svg {
+  display: none;
+}
+
+/* Center the footer items and align icons */
+.footer__link-item {
+  display: flex !important;
+  align-items: center;
+  justify-content: flex-start; /* Aligns them to the left of their column */
+  transition: color 0.2s ease;
+}
+
+/* Make icons consistent */
+.footer__link-item i {
+  width: 20px;
+  text-align: center;
+  margin-right: 12px;
+  font-size: 1.1rem;
+}
+
+.footer__link-item:hover {
+  text-decoration: none;
+  color: var(--ifm-color-primary);
+}
+
+.footer-icon-intro::before {
+  font-family: "Font Awesome 6 Free";
+  content: "\f518";
+  margin-right: 8px;
+  font-weight: 900;
+}
+
+.alert a {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+.alert a:hover {
+  text-decoration: var(--ifm-color-primary) underline;
+}
+
+/* Base style for all Admonitions */
+div[class*='admonition_'] {
+  border: none !important;
+  border-left: 6px solid var(--ifm-color-primary) !important;
+  color: var(--summary-text-color);
+  background-color: var(--alert-admonition-bg-color) !important;
+  backdrop-filter: blur(8px) !important;
+  border-radius: 2px !important;
+}
+
+div[class*='admonitionHeading_'] {
+  text-transform: uppercase !important;
+  font-size: 0.85rem !important;
+  letter-spacing: 1px !important;
+}
+
+div[class*='admonitionIcon_'] {
+  height: 50px;
+}
+
+div[class*='admonition_'][class*='tip'] { border-left-color: #4ade80 !important; }
+div[class*='admonition_'][class*='info'] { border-left-color: #3b82f6 !important; --ifm-alert-foreground-color: var(--summary-text-color);}
+div[class*='admonition_'][class*='warning'] { border-left-color: #fbbf24 !important; }
+div[class*='admonition_'][class*='danger'] { border-left-color: #ef4444 !important; }
+
+/* Custom Markdown */
+table .thsize {
+  width: 100px;
+}
+
+table .item {
+  width: 80px;
+}
+
+table .name,
+table .source {
+  width: 425px;
+}
+
+details {
+  --docusaurus-details-decoration-color: var(--summary-border-color);
+  border: 1px solid var(--summary-border-color);
+}
+
+details:hover {
+  border-color: var(--ifm-color-primary);
+}
+
+details.alert {
+  color: var(--summary-text-color);
+  background-color: var(--summary-bg-color);
+}
+
+details.alert::before {
+  color: var(--ifm-color-primary);
+}
+
+details summary {
+  align-items: center;
+}

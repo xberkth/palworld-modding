@@ -1,0 +1,3 @@
+# Descripción
+
+Este mod añade nuevos planos de ciertas herramientas para adaptarse a la actualización Palworld 0.7.2. Hacha de metal, Pico de metal, Hacha de metal refinado, Pico de metal refinado, Hacha de Paluminium y Pico de Paluminium ahora cuentan con la compatibilidad adecuada con los planos, lo que les permite integrarse a la perfección con la progresión del juego y el equilibrio de la creación.

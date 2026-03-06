@@ -1,0 +1,90 @@
+/* CSS files with the .module.css suffix will be treated as CSS modules and scoped locally. */
+
+.heroBanner {
+  padding: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+  background: #1b1b1d;
+}
+
+/* Background Image Layer */
+.heroBanner::before {
+  content: "";
+  position: absolute;
+  top: -10%;
+  left: -10%;
+  width: 120%; 
+  height: 120%;
+  background-image: url('/img/background.png'); 
+  background-size: 80%;
+  background-position: center;
+  transform: translate(calc(var(--x, 0) * 1px), calc(var(--y, 0) * 1px)) scale(1.1);
+  filter: blur(4px) brightness(0.8); 
+  z-index: 0;
+  will-change: transform;
+}
+
+/* Ensure the container stays on top of the blurred image */
+.heroBanner :global(.container) {
+  position: relative;
+  z-index: 1;
+}
+
+.heroBannerImage {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 600px; 
+  height: auto;
+  margin-bottom: 2rem;
+  image-rendering: auto !important;
+  transform: translateZ(0);
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+@media screen and (min-width: 1921px) and (max-width: 3840px) {
+  .heroBannerImage {
+    max-width: 1000px;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Custom Homepage Button */
+.heroButton {
+  background-color: var(--hero-btn-bg);
+  color: var(--hero-btn-text);
+  font-weight: bold;
+  display: inline-block;
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  backface-visibility: hidden;
+  transform: translateZ(0); 
+  -webkit-font-smoothing: subpixel-antialiased;
+  will-change: transform;
+}
+
+.heroButton:hover {
+  background-color: var(--hero-btn-bg);
+  color: var(--hero-btn-text-hover);
+  text-decoration: none;
+  transform: scale(1.05);
+}
+
+.heroButton:active {
+  transform: scale(0.98);
+}
