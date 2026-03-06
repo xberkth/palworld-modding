@@ -46,7 +46,7 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           editUrl:
-            'https://github.com/xberkth/xberkth.github.io/',
+            'https://github.com/xberkth/palworld-modding/',
           exclude: [
             '**/tutorial-basics/**',
             '**/tutorial-extras/**',
@@ -108,7 +108,7 @@ const config = {
             'aria-label': 'Discord',
           },
           {
-            href: 'https://github.com/xberkth/xberkth.github.io/palworld-modding',
+            href: 'https://github.com/xberkth/palworld-modding',
             position: 'right',
             className: 'header-github-link',
             'aria-label': 'GitHub repository',
@@ -159,7 +159,7 @@ const config = {
             items: [
               {
                 html: `
-                  <a class="footer__link-item" href="https://github.com/xberkth/xberkth.github.io/palworld-modding" target="_blank" rel="noopener">
+                  <a class="footer__link-item" href="https://github.com/xberkth/palworld-modding" target="_blank" rel="noopener">
                     <i class="fa-brands fa-github" style="margin-right: 8px;"></i> GitHub
                   </a>
                 `,

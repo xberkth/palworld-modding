@@ -181,6 +181,10 @@ table .thsize {
   width: 100px;
 }
 
+html[lang='es'] table .thsize {
+  width: 120px;
+}
+
 table .item {
   width: 80px;
 }
