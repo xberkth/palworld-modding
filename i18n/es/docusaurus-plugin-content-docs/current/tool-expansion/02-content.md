@@ -7,7 +7,7 @@ import styles from '/src/css/custom.css';
    <thead>
       <tr>
          <th>OBJETO</th>
-         <th class="thsize">POCOCOMÚN</th>
+         <th class="thsize">POCO COMÚN</th>
          <th class="thsize">RARO</th>
          <th class="thsize">ÉPICO</th>
          <th class="thsize">LEGENDARIO</th>
