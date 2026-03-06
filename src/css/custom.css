@@ -21,6 +21,11 @@
   --summary-bg-color: #fff;
   --summary-border-color: #DADDE1;
   --summary-text-color: #1C1E21;
+  /* --searchbar-bg-color: #F2F2F2;
+  --searchbar-text-color: #1C1E21;
+  --searchbar-placeholder-color: #1C1E21;
+  --search-local-highlight-color: #007acc;
+  --ifm-navbar-search-input-icon: url('data:image/svg+xml;utf8,<svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" height="16px" width="16px"><path d="M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z" /></svg>'); */
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -40,6 +45,11 @@
   --summary-bg-color: #2B2B2D;
   --summary-border-color: #606770;
   --summary-text-color: #EEF9FD;
+  /* --searchbar-bg-color: #F2F2F2;
+  --searchbar-text-color: #1C1E21;
+  --searchbar-placeholder-color: #1C1E21;
+  --search-local-highlight-color: #0099ff;
+  --ifm-navbar-search-input-icon: url('data:image/svg+xml;utf8,<svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" height="16px" width="16px"><path d="M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z" /></svg>'); */
 }
 
 /* Navbar Links */
@@ -52,6 +62,27 @@ a.navbar__item.navbar__link.header-github-link {
   padding-left: 10px;
   padding-right: 15px;
 }
+
+/* Navbar SearchBar
+.navbar__search-input {
+  background: var(--searchbar-bg-color) var(--ifm-navbar-search-input-icon) no-repeat .75rem center / 1rem 1rem;
+  color: var(--searchbar-text-color);
+}
+
+.navbar__search-input::placeholder {
+  color: var(--searchbar-placeholder-color);
+  opacity: 0.8;
+}
+
+html .navbar__search-input:focus {
+  border: none !important;
+  outline: none !important;
+  box-shadow: 0 0 0 1px var(--ifm-color-primary) !important;
+}
+
+.navbar__search:focus-within .navbar__search-input {
+  box-shadow: 0 0 0 1px var(--ifm-color-primary) !important;
+} */
 
 .header-discord-link::before {
   content: '';

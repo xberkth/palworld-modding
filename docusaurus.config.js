@@ -45,8 +45,8 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          editUrl:
-            'https://github.com/xberkth/palworld-modding/',
+          // editUrl:
+          //   'https://github.com/xberkth/palworld-modding/',
           exclude: [
             '**/tutorial-basics/**',
             '**/tutorial-extras/**',
@@ -68,7 +68,7 @@ const config = {
       crossorigin: 'anonymous',
     },
   ],
-
+  plugins: [],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -102,7 +102,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://discord.gg/AvKjngsppx',
+            href: 'https://discord.gg/XnsNVfqXFa',
             position: 'right',
             className: 'header-discord-link',
             'aria-label': 'Discord',
@@ -147,7 +147,7 @@ const config = {
               },
               {
                 html: `
-                  <a class="footer__link-item" href="https://discord.gg/AvKjngsppx" target="_blank" rel="noopener">
+                  <a class="footer__link-item" href="https://discord.gg/XnsNVfqXFa" target="_blank" rel="noopener">
                     <i class="fa-brands fa-discord" style="margin-right: 8px;"></i> Discord
                   </a>
                 `,
