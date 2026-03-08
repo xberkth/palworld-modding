@@ -1,17 +1,17 @@
-# Installation
+# Instalación
 
 ### 1. PALSCHEMA
-🔹 Install [PalSchema](https://www.nexusmods.com/palworld/mods/2361). Follow the official PalSchema [installation instructions](https://okaetsu.github.io/PalSchema/docs/installation) to avoid any issue. Skip this step if you already have it installed.
+🔹 Instala [PalSchema](https://www.nexusmods.com/palworld/mods/2361). Sigue las [instrucciones oficiales de instalación](https://okaetsu.github.io/PalSchema/docs/installation) de PalSchema para evitar problemas. Omite este paso si ya lo tienes instalado.
 
 ### 2. UE4SS
-🔹 Install the latest [experimental UE4SS](https://github.com/Okaetsu/RE-UE4SS/releases/tag/experimental-palworld). Skip this step if you already have it installed.
+🔹 Instala la última versión [experimental de UE4SS](https://github.com/Okaetsu/RE-UE4SS/releases/tag/experimental-palworld). Omite este paso si ya lo tienes instalado.
 
 ### 3. MOD
-🔹 Go to your Palworld installation directory. On Steam, you can right-click the game, select Manage > Browse local files. If you are using the file explorer, path should be something like this: ``C:\Program Files (x86)\Steam\steamapps\common\Palworld``
+🔹 Ve al directorio de instalación de Palworld. En Steam, puedes hacer clic derecho en el juego y seleccionar Administrar > Explorar archivos locales. Si usas el explorador de archivos, la ruta debería ser similar a esta: ``C:\Archivos de programa (x86)\Steam\steamapps\common\Palworld``
 
-🔹 Download the [mod](https://www.nexusmods.com/palworld/mods/3310?tab=files) and extract it directly to the Palworld directory that you just opened. Make sure to download the version of the mod for your platform.
+🔹 Descarga el [mod](https://www.nexusmods.com/palworld/mods/3310?tab=files) y extráelo directamente al directorio de Palworld que acabas de abrir. Asegúrate de descargar la versión del mod para tu plataforma.
 
-🔹 After extracting the files, you should have the following structure:
+🔹 Después de extraer los archivos, deberías tener la siguiente estructura:
 ```
 📁 Palworld
 └── 📁 Pal
@@ -44,10 +44,10 @@
             └── 📄 LegendaryGlider_P.utoc (gamepass version only)
 ```
 
-🔹 If you did everything correctly, enjoy playing with the mod!
+🔹 Si hiciste todo correctamente, ¡disfruta del mod!
 
-:::info[**Important**]
+:::info[**Importante**]
 
-If your PalSchema directory doesn't match, you've most likely downloaded an outdated version of UE4SS, PalSchema or both. This may result in issues like blueprint mods and jsonc files not working. Refer to steps [**#1**](#1-palschema) and [**#2**](#2-ue4ss).
+Si tu directorio PalSchema no coincide, probablemente hayas descargado una versión desactualizada de UE4SS, PalSchema o ambos. Esto puede causar problemas como que los mods de planos y los archivos jsonc no funcionen. Consulta los pasos [**#1**](#1-palschema) y [**#2**](#2-ue4ss).
 
 :::

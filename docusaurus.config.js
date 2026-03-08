@@ -50,7 +50,6 @@ const config = {
           exclude: [
             '**/tutorial-basics/**',
             '**/tutorial-extras/**',
-            '**/legendary-glider/**',
           ],
         },
         blog: false,
@@ -95,7 +94,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'Sidebar',
             position: 'left',
-            label: 'Docs',
+            label: 'Documentation',
           },
           {
             type: 'localeDropdown',
@@ -119,7 +118,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Documentation',
             items: [
               {
                 label: 'Introduction',
@@ -133,7 +132,7 @@ const config = {
             items: [
               {
                 html: `
-                  <a class="footer__link-item" href="https://www.nexusmods.com/profile/xBerkth" target="_blank" rel="noopener">
+                  <a class="footer__link-item" href="https://www.nexusmods.com/profile/xBerkth/mods" target="_blank" rel="noopener">
                     <i class="fa-solid fa-cube" style="margin-right: 8px;"></i> Nexus Mods
                   </a>
                 `,
