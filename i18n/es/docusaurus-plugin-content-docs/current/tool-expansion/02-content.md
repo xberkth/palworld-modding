@@ -1,6 +1,6 @@
 import styles from '/src/css/custom.css';
 
-# Content
+# Contenido
 
 ### NUEVOS PLANOS
 <table>
