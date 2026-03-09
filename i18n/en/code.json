@@ -327,6 +327,6 @@
     "description": "The title of the tag list page"
   },
   "homepage.visitDocsButton": {
-    "message": "DOCS"
+    "message": "DOCUMENTATION"
   }
 }
