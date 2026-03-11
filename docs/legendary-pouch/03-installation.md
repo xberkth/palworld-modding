@@ -9,7 +9,7 @@
 ### 3. MOD
 🔹 Go to your Palworld installation directory. On Steam, you can right-click the game, select Manage > Browse local files. If you are using the file explorer, path should be something like this: ``C:\Program Files (x86)\Steam\steamapps\common\Palworld``
 
-🔹 Download the [mod](https://www.nexusmods.com/palworld/mods/3312?tab=files) and extract it directly to the Palworld directory that you just opened. Make sure to download the version of the mod for your platform.
+🔹 Download the [mod](https://www.nexusmods.com/palworld/mods/3313?tab=files) and extract it directly to the Palworld directory that you just opened. Make sure to download the version of the mod for your platform.
 
 🔹 After extracting the files, you should have the following structure:
 ```
