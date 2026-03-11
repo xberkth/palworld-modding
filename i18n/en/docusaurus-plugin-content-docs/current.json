@@ -14,5 +14,13 @@
   "sidebar.Sidebar.category.🔨 Tool Expansion": {
     "message": "🔨 Tool Expansion",
     "description": "The label for category '🔨 Tool Expansion' in sidebar 'Sidebar'"
+  },
+  "sidebar.Sidebar.category.🪂 Legendary Glider": {
+    "message": "🪂 Legendary Glider",
+    "description": "The label for category '🪂 Legendary Glider' in sidebar 'Sidebar'"
+  },
+  "sidebar.Sidebar.category.💼 Legendary Pouch": {
+    "message": "💼 Legendary Pouch",
+    "description": "The label for category '💼 Legendary Pouch' in sidebar 'Sidebar'"
   }
 }
