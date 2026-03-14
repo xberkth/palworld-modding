@@ -15,33 +15,28 @@
 ```
 📁 Palworld
 └── 📁 Pal
-    ├── 📁 Binaries
-    │   └── 📁 Win64/WinGDK (steam/gamepass)
-    │       └── 📁 ue4ss
-    │           └── 📁 Mods
-    │               └── 📁 PalSchema
-    │                   └── 📁 Mods
-    │                       └── 📁 LegendaryPouch
-    │                           ├── 📁 items
-    │                           │   └── 📄 colossal_pouch.jsonc
-    │                           ├── 📁 raw
-    │                           │   ├── 📄 colossal_pouch_icon.jsonc
-    │                           │   ├── 📄 colossal_pouch_icon_dt.jsonc
-    │                           │   ├── 📄 colossal_pouch_recipe.jsonc
-    │                           │   └── 📄 colossal_pouch_techtree.jsonc
-    │                           ├── 📁 resources
-    │                           │   ├── 📁 images
-    │                           |   │   └── 📄 T_itemicon_Essential_Colossal_Pouch.png
-    │                           └── 📁 translations
-    │                               ├── 📁 en
-    │                               │   └── 📄 pouch_translations.json
-    │                               └── 📁 es
-    │                                   └── 📄 pouch_translations.json
-    └── 📁 Content
-        └── 📁 Paks
-            └── 📄 LegendaryPouch_P.pak
-            └── 📄 LegendaryPouch_P.ucas (gamepass version only)
-            └── 📄 LegendaryPouch_P.utoc (gamepass version only)
+    └── 📁 Binaries
+        └── 📁 Win64/WinGDK (steam/gamepass)
+            └── 📁 ue4ss
+                └── 📁 Mods
+                    └── 📁 PalSchema
+                        └── 📁 Mods
+                            └── 📁 LegendaryPouch
+                                ├── 📁 items
+                                │   └── 📄 colossal_pouch.jsonc
+                                ├── 📁 raw
+                                │   ├── 📄 colossal_pouch_icon.jsonc
+                                │   ├── 📄 colossal_pouch_icon_dt.jsonc
+                                │   ├── 📄 colossal_pouch_recipe.jsonc
+                                │   └── 📄 colossal_pouch_techtree.jsonc
+                                ├── 📁 resources
+                                │   ├── 📁 images
+                                |   │   └── 📄 T_itemicon_Essential_Colossal_Pouch.png
+                                └── 📁 translations
+                                    ├── 📁 en
+                                    │   └── 📄 pouch_translations.json
+                                    └── 📁 es
+                                        └── 📄 pouch_translations.json
 ```
 
 🔹 If you did everything correctly, enjoy playing with the mod!
