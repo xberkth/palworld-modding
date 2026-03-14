@@ -2,6 +2,7 @@
   "position": 3,
   "label": "🔪 Melee Expansion",
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "slug": "melee-expansion"
   }
 }

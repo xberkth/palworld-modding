@@ -2,6 +2,7 @@
   "position": 4,
   "label": "🔨 Tool Expansion",
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "slug": "tool-expansion"
   }
 }

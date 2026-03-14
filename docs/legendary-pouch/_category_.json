@@ -2,6 +2,7 @@
   "position": 5,
   "label": "💼 Legendary Pouch",
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "slug": "legendary-pouch"
   }
 }
