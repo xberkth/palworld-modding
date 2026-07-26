@@ -4,7 +4,7 @@ import styles from '/src/css/custom.css';
 
 # COLOSSAL POUCH
 🔹 Unlock in the technology tree at level 64.  
-🔹 Cost 5 ancient technology points.  
+🔹 Cost 5 technology points.  
 🔹 Provides 6 extra inventory slots.  
 
 ![WIP](./img/colossal_pouch.png)
